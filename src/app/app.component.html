@@ -1,3 +1,18 @@
-<h1>
-  {{title}}
-</h1>
+<div>
+    
+    <div *ngIf="mostrarMenu">
+        {{title}}
+        <app-menu></app-menu>
+        <hr />
+    </div>
+
+    
+    <div class="container">
+        <router-outlet></router-outlet>    
+    </div>
+    
+    <div *ngIf="mostrarMenu">
+        <app-footer></app-footer>    
+    </div>
+
+</div>
