@@ -12,6 +12,7 @@ export const ROUTES: Routes = [
     {
         path: '',
         component: HomeComponent,
+        //Comando para proteger a rota
         canActivate: [AuthGuard]
     }
 

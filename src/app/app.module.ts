@@ -12,6 +12,7 @@ import { FooterComponent } from './pages/footer/footer.component';
 import { LoginComponent } from './pages/login/login.component';
 import { AuthService } from './services/login/auth.service';
 import { AuthGuard } from './guards/auth-guard';
+import { UsuarioGuard } from './guards/usuario-guard';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { AuthGuard } from './guards/auth-guard';
   ],
   providers: [
     AuthService,
-    AuthGuard
+    AuthGuard,
+    UsuarioGuard
   ],
   bootstrap: [AppComponent]
 })

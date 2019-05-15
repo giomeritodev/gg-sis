@@ -4,10 +4,10 @@
 
 .loginTela{
 width: 100%;
-background-image: url('../../../images/sorvete.png');
+/*background-image: url('../../../images/sorvete.png');*/
 background-size: cover;
 background-repeat: no-repeat;
-height: 600px;
+height: 500px;
 font-family: 'Numans', sans-serif;
 }
 
@@ -31,7 +31,7 @@ color: #FFC312;
 }
 
 .social_icon span:hover{
-color: white;
+color: black;
 cursor: pointer;
 }
 
